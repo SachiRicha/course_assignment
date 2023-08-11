@@ -1,0 +1,106 @@
+/* set some global style for entire page */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 1000px;
+    background-color: #40d1a6;
+    font-size: 18px;
+    font-family: 'Quantico', sans-serif ;
+}
+
+/* HEADER */
+#header-nav {
+    background-color: rgb(139, 110, 72);
+    border-radius: 0;
+    border: 0;
+    border-width: auto;
+}
+
+.navbar-brand h1 {
+    font-family:'Overpass', sans-serif ;
+    color: rgb(13, 2, 24);
+    font-size: 2.5em;
+    text-transform:uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #dbcece;
+    margin-top: 5px;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+/* to remove underline below the company name */
+
+.navbar-brand a:hover {
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, navbar-header .iconbar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+/* DROPDOWN MENU */
+
+#collapsable-nav ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.800);
+}
+
+#nav-list {
+    margin-top: 5px;
+    background-color: grey;
+}
+
+#nav-list a {
+    color:black;
+    text-align: center;
+    font-size: 1.0em;
+}
+
+#nav-list a:hover {
+    background-color: #40d1a6;
+}
+
+#heading {
+    font-weight: bolder;
+}
+
+/* Main Content */
+
+.container-fluid .jumbotron {
+    border-radius: 0;
+}
+.jumbotron {
+    margin-top: 50px;
+    box-shadow: 0 0 50px grey;
+    border: 2px solid grey;
+    border-radius: 0;
+    padding: 0;
+}
+
+.jumbotron h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#para {
+    margin-top: -15px;
+   font-size: 1.0em;
+   margin-left: 10px;
+   margin-right: 10px;
+   font-style: italic;
+}
+
+@media (min-width :768px) {
+    .navbar-brand h1 {
+        line-height: .95;
+    }
+    .navbar-header {
+        height: 75px;
+    }
+}
