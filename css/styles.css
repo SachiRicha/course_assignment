@@ -5,12 +5,11 @@
 
 body {
     height: 1000px;
-    background-color: #40d1a6;
+/*     background-color: #40d1a6; */
     font-size: 18px;
     font-family: 'Quantico', sans-serif ;
-    background : url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fturbofuture.com%2Fcomputers%2FWebsite-Background-Templates&psig=AOvVaw2UQpiYTAkB0xN0W_pBh1Eo&ust=1692024262214000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNiNxNvv2YADFQAAAAAdAAAAABAE") no-repeat;
+    background : url("https://images.saymedia-content.com/.image/t_share/MTkzOTUzODU0MDkyODc5MzY1/particlesjs-examples.gif") no-repeat;
 }
-
 /* HEADER */
 #header-nav {
     background-color: rgb(139, 110, 72);
