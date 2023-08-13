@@ -9,6 +9,8 @@ body {
     font-size: 18px;
     font-family: 'Quantico', sans-serif ;
     background : url("https://images.saymedia-content.com/.image/t_share/MTkzOTUzODU0MDkyODc5MzY1/particlesjs-examples.gif") no-repeat;
+    background-position : center;
+    background-size : cover;
 }
 /* HEADER */
 #header-nav {
